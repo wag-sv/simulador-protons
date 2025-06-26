@@ -12,7 +12,7 @@ export default function HeroSection() {
         <div className="w-full lg:w-[330px] flex flex-col items-center lg:items-start justify-center mb-8 md:mb-0">
           {/* Logo */}
           <div className="w-full flex justify-center lg:justify-start pb-8 md:pb-16">
-            <Image src="/logo.png" alt="Logo Protons" width={200} height={50} />
+            <Image src="/logo.png" alt="Logo Protons" width={300} height={75} className="w-auto h-auto" />
           </div>
           <h1 className="text-2xl md:text-3xl text-[#45598F] mb-2 leading-tight font-normal text-center lg:text-left">
             Energia solar não é sobre economia.

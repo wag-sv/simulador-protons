@@ -81,7 +81,7 @@ export default function QuemSomos() {
       </div>
 
       {/* Barra Inferior */}
-      <div className="w-full bg-[#45598F] h-16 flex items-center justify-start overflow-hidden mt-16">
+      <div className="w-full bg-[#45598F] h-12 flex items-center justify-start overflow-hidden mt-16">
         <div className="flex items-center whitespace-nowrap animate-scroll">
           {[...Array(8)].map((_, index) => (
             <div key={index} className="flex items-center text-white font-semibold text-lg tracking-wide">
