@@ -2,7 +2,7 @@ export default function Rodape() {
   return (
     <section className="bg-[#CF7D00] py-16 -mt-22 px-6 relative z-0">
       <div className="max-w-4xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-items-center text-center md:text-left">
           {/* Campo Grande */}
           <div className="text-white">
             <h3 className="text-2xl font-semibold mb-2">Campo Grande-MS</h3>

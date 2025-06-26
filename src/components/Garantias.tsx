@@ -3,7 +3,7 @@ import { BsCheckCircleFill } from "react-icons/bs";
 
 export default function Garantias() {
   return (
-    <section className="bg-[#222222] text-white pt-16 px-6 -mt-8">
+    <section className="bg-[#222222] text-white pt-16 pb-16 lg:pb-0 px-6 -mt-8">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:ml-12">
           {/* Coluna Esquerda: Título e Imagem */}
