@@ -54,7 +54,7 @@ export default function CasesSucesso() {
             <div className="bg-[#1E1E1E] text-white p-5 rounded-2xl shadow-lg w-60 h-60 flex flex-col justify-center lg:-mr-8 z-10 -mb-20 lg:mb-0">
               <div className="flex items-center gap-3 text-[#FF6B00] font-semibold mb-4">
                 <IoLocationOutline size={28} />
-                <div className="text-base font-bold text-white uppercase">RONDONÓPOLIS - MT</div>
+                <div className="text-sm font-bold text-white uppercase">RONDONÓPOLIS - MT</div>
               </div>
               <div className="flex items-center gap-3 mb-3">
                 <PiLightningBold size={26} className="text-[#FF6B00]" />
