@@ -6,10 +6,10 @@ export default function HeroSection() {
   return (
     <section className="relative overflow-hidden w-full">
       {/* Grid principal */}
-      <div className="w-full flex flex-col lg:flex-row items-center justify-center px-6 mt-16">
+      <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between px-6 mt-16 lg:gap-12">
 
         {/* Coluna Esquerda: logo, textos e Botão */}
-        <div className="w-full lg:w-[330px] flex flex-col items-center lg:items-start justify-center mb-8 md:mb-0">
+        <div className="w-full lg:flex-1 lg:max-w-md flex flex-col items-center lg:items-start justify-center mb-8 md:mb-0">
           {/* Logo */}
           <div className="w-full flex justify-center lg:justify-start pb-8 md:pb-16">
             <Image src="/logo.png" alt="Logo Protons" width={300} height={75} className="w-auto h-auto" />
@@ -32,13 +32,13 @@ export default function HeroSection() {
         </div>
 
         {/* Coluna Direita: Imagem */}
-        <div className="flex items-end justify-center relative mt-8 md:mt-20">
+        <div className="flex items-end justify-center relative mt-8 md:mt-20 w-full lg:flex-1 px-4 lg:px-0">
           <Image 
             src="/hero.png" 
             alt="Homem com painéis solares" 
             width={600} 
             height={600} 
-            className="w-auto h-auto max-w-[450px] md:max-w-[600px] object-contain"
+            className="w-full h-auto max-w-none md:max-w-[600px] object-contain"
           />
         </div>
         

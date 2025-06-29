@@ -1,16 +1,14 @@
 import Image from "next/image";
 import { FaChevronDown } from "react-icons/fa";
-import { FaUsers, FaMapMarkerAlt, FaUserTie } from "react-icons/fa";
-import { PiSolarPanel } from "react-icons/pi";
 import { BiLike } from "react-icons/bi";
 
 export default function QuemSomos() {
   return (
     <section className="relative overflow-hidden w-full py-12 lg:-mt-16">
       {/* Grid principal */}
-      <div className="w-full flex flex-col lg:flex-row items-center justify-center px-6 gap-12">
+      <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between px-6 lg:gap-12">
         {/* Coluna Esquerda: Texto */}
-        <div className="w-full lg:w-[330px] flex flex-col items-center lg:items-start justify-center mb-8 lg:mb-0">
+        <div className="w-full lg:flex-1 lg:max-w-md flex flex-col items-center lg:items-start justify-center mb-8 lg:mb-0">
           <h2 className="text-3xl lg:text-4xl font-bold text-[#45598F] mb-6 text-center lg:text-left">Quem Somos</h2>
           <p className="text-[#45598F] text-base leading-relaxed text-center lg:text-left">
             A <span className="font-bold text-[#45598F]">Protons</span> nasceu com um único propósito: mudar a realidade do mercado fotovoltaico, transformando a luz do sol em <span className="font-bold">economia</span> com <span className="font-bold">qualidade, confiabilidade e clareza</span> em todos os nossos processos.
@@ -18,23 +16,23 @@ export default function QuemSomos() {
         </div>
 
         {/* Coluna Direita: Imagem */}
-        <div className="flex items-center justify-center relative">
+        <div className="flex items-center justify-center relative w-full lg:flex-1 px-4 lg:px-0">
           <Image 
             src="/note.png" 
             alt="Laptop com sistema Protons" 
             width={600} 
             height={420} 
-            className="w-auto h-auto max-w-[500px] lg:max-w-[600px] object-contain"
+            className="w-full h-auto max-w-none lg:max-w-[600px] object-contain"
           />
         </div>
       </div>
 
       {/* Botão Dropdown */}
-      <div className="flex justify-center mt-12 mb-16">
-        <div className="bg-[#CF7D00] hover:bg-[#b86c00] text-white font-semibold px-8 py-2 rounded-full flex items-center gap-8 text-lg">
-          <FaChevronDown size={16} />
+      <div className="flex justify-center mt-12 mb-16 px-4">
+        <div className="bg-[#CF7D00] hover:bg-[#b86c00] text-white font-semibold px-4 sm:px-8 py-2 rounded-full flex items-center gap-2 sm:gap-8 text-sm sm:text-lg whitespace-nowrap">
+          <FaChevronDown size={14} className="sm:size-4" />
           Por que escolher a Protons?
-          <FaChevronDown size={16} />
+          <FaChevronDown size={14} className="sm:size-4" />
         </div>
       </div>
 
@@ -43,7 +41,7 @@ export default function QuemSomos() {
         {/* Card 1 - Clientes */}
         <div className="bg-[#1E1E1E] text-white rounded-xl p-5 flex flex-col items-center text-center max-w-[250px] mx-auto w-full">
           <div className="mb-4">
-            <FaUsers size={48} className="text-[#FF6B1A]" />
+            <Image src="/clientes.png" alt="Clientes" width={80} height={80} className="w-auto h-20" />
           </div>
           <div className="text-2xl font-bold mb-1">+ de 2000</div>
           <div className="text-sm">clientes</div>
@@ -53,7 +51,7 @@ export default function QuemSomos() {
         {/* Card 2 - Projetos */}
         <div className="bg-[#1E1E1E] text-white rounded-xl p-5 flex flex-col items-center text-center max-w-[250px] mx-auto w-full">
           <div className="mb-4">
-            <FaMapMarkerAlt size={48} className="text-[#FF6B1A]" />
+            <Image src="/projetos.png" alt="Projetos" width={80} height={80} className="w-auto h-20" />
           </div>
           <div className="text-2xl font-bold text-white mb-1">Projetos em</div>
           <div className="text-2xl font-bold text-white mb-1">2 estados</div>
@@ -63,7 +61,7 @@ export default function QuemSomos() {
         {/* Card 3 - Equipe */}
         <div className="bg-[#1E1E1E] text-white rounded-xl p-5 flex flex-col items-center text-center max-w-[250px] mx-auto w-full">
           <div className="mb-4">
-            <FaUserTie size={48} className="text-[#FF6B1A]" />
+            <Image src="/equipe.png" alt="Equipe" width={80} height={80} className="w-auto h-20" />
           </div>
           <div className="text-2xl font-bold text-white mb-1">Equipe de</div>
           <div className="text-2xl font-bold text-white mb-1">engenharia</div>
@@ -73,7 +71,7 @@ export default function QuemSomos() {
         {/* Card 4 - Potência */}
         <div className="bg-[#1E1E1E] text-white rounded-xl p-5 flex flex-col items-center text-center max-w-[250px] mx-auto w-full">
           <div className="mb-4">
-            <PiSolarPanel size={48} className="text-[#FF6B1A]" />
+            <Image src="/operacao.png" alt="Potência em operação" width={80} height={80} className="w-auto h-20" />
           </div>
           <div className="text-2xl font-bold mb-1">+ de 10 MWp</div>
           <div className="text-sm">em operação</div>
