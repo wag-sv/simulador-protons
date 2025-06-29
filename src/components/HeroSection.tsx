@@ -23,12 +23,17 @@ export default function HeroSection() {
           <p className="mb-6 text-base text-[#45598F] text-center lg:text-left">
             Escolha <span className="font-bold">tecnologia, segurança e um projeto sob medida para seu patrimônio.</span> Simule agora.
           </p>
-          <button className="bg-[#CF7D00] hover:bg-[#b86c00] text-white font-semibold px-8 py-3 rounded-full text-base flex items-center gap-2 shadow-md">
+          <a 
+            href="https://protonsenergia.com.br/simulador/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#CF7D00] hover:bg-[#b86c00] text-white font-semibold px-8 py-3 rounded-full text-base flex items-center gap-2 shadow-md"
+          >
             Simular meu sistema
             <span className="bg-white rounded-full w-7 h-7 flex items-center justify-center ml-2">
               <IoIosArrowForward size={22} color="#222" />
             </span>
-          </button>
+          </a>
         </div>
 
         {/* Coluna Direita: Imagem */}
