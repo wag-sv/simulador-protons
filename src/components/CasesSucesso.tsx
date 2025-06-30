@@ -14,7 +14,7 @@ export default function CasesSucesso() {
             <div className="bg-[#1E1E1E] text-white p-3 rounded-t-2xl rounded-b-none lg:rounded-2xl shadow-lg w-full max-w-[700px] lg:w-60 h-60 flex flex-col justify-center lg:-mr-8 z-10 mb-0 lg:mb-0">
               <div className="flex items-center gap-3 text-[#FF6B00] font-semibold mb-2">
                 <div className="w-10 h-10 flex items-center justify-center">
-                  <Image src="/local.png" alt="Localização" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/local.png" alt="Localização" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <div>
                   <div className="text-base font-bold text-white uppercase">AABB</div>
@@ -23,19 +23,19 @@ export default function CasesSucesso() {
               </div>
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-10 h-10 flex items-center justify-center">
-                  <Image src="/potencia.png" alt="Potência" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/potencia.png" alt="Potência" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <span className="text-base font-bold text-white">129,27 kWp</span>
               </div>
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-10 h-10 flex items-center justify-center">
-                  <Image src="/modulos.png" alt="Módulos" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/modulos.png" alt="Módulos" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <span className="text-base font-bold text-white">278 Módulos</span>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-10 h-10 flex items-center justify-center mt-1">
-                  <Image src="/economia.png" alt="Economia" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/economia.png" alt="Economia" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <div>
                   <div className="text-sm font-bold text-white">Economia média anual:</div>
@@ -50,6 +50,7 @@ export default function CasesSucesso() {
                 width={700} 
                 height={350} 
                 className="w-full h-[280px] object-cover rounded-b-lg rounded-t-none lg:rounded-lg"
+                style={{ width: "auto" }}
               />
             </div>
           </div>
@@ -59,25 +60,25 @@ export default function CasesSucesso() {
             <div className="bg-[#1E1E1E] text-white p-3 rounded-t-2xl rounded-b-none lg:rounded-2xl shadow-lg w-full max-w-[700px] lg:w-60 h-60 flex flex-col justify-center lg:-mr-8 z-10 mb-0 lg:mb-0">
               <div className="flex items-center gap-3 text-[#FF6B00] font-semibold mb-2">
                 <div className="w-10 h-10 flex items-center justify-center">
-                  <Image src="/local.png" alt="Localização" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/local.png" alt="Localização" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <div className="text-sm font-bold text-white uppercase">RONDONÓPOLIS - MT</div>
               </div>
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-10 h-10 flex items-center justify-center">
-                  <Image src="/potencia.png" alt="Potência" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/potencia.png" alt="Potência" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <span className="text-base font-bold text-white">350 MWh/ano</span>
               </div>
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-10 h-10 flex items-center justify-center">
-                  <Image src="/modulos.png" alt="Módulos" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/modulos.png" alt="Módulos" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <span className="text-base font-bold text-white">433 Módulos</span>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-10 h-10 flex items-center justify-center mt-1">
-                  <Image src="/economia.png" alt="Economia" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/economia.png" alt="Economia" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <div>
                   <div className="text-sm font-bold text-white">Economia média anual:</div>
@@ -92,6 +93,7 @@ export default function CasesSucesso() {
                 width={700} 
                 height={350} 
                 className="w-full h-[280px] object-cover rounded-b-lg rounded-t-none lg:rounded-lg"
+                style={{ width: "auto" }}
               />
             </div>
           </div>
@@ -101,7 +103,7 @@ export default function CasesSucesso() {
             <div className="bg-[#1E1E1E] text-white p-3 rounded-t-2xl rounded-b-none lg:rounded-2xl shadow-lg w-full max-w-[700px] lg:w-60 h-60 flex flex-col justify-center lg:-mr-8 z-10 mb-0 lg:mb-0">
               <div className="flex items-center gap-3 text-[#FF6B00] font-semibold mb-2">
                 <div className="w-10 h-10 flex items-center justify-center">
-                  <Image src="/local.png" alt="Localização" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/local.png" alt="Localização" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <div>
                   <div className="text-base font-bold text-white uppercase">CEDIR</div>
@@ -110,19 +112,19 @@ export default function CasesSucesso() {
               </div>
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-10 h-10 flex items-center justify-center">
-                  <Image src="/potencia.png" alt="Potência" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/potencia.png" alt="Potência" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <span className="text-base font-bold text-white">52.000 kWh/m.m</span>
               </div>
               <div className="flex items-center gap-3 mb-2">
                 <div className="w-10 h-10 flex items-center justify-center">
-                  <Image src="/modulos.png" alt="Módulos" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/modulos.png" alt="Módulos" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <span className="text-base font-bold text-white">730 Módulos de 610w</span>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-10 h-10 flex items-center justify-center mt-1">
-                  <Image src="/economia.png" alt="Economia" width={32} height={32} className="w-auto h-8" />
+                  <Image src="/economia.png" alt="Economia" width={32} height={32} className="w-auto h-8" style={{ height: "auto" }} />
                 </div>
                 <div>
                   <div className="text-sm font-bold text-white">Economia média anual:</div>
@@ -137,6 +139,7 @@ export default function CasesSucesso() {
                 width={700} 
                 height={350} 
                 className="w-full h-[280px] object-cover rounded-b-lg rounded-t-none lg:rounded-lg"
+                style={{ width: "auto" }}
               />
             </div>
           </div>

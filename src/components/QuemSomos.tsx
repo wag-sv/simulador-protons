@@ -41,7 +41,7 @@ export default function QuemSomos() {
         {/* Card 1 - Clientes */}
         <div className="bg-[#1E1E1E] text-white rounded-xl p-5 flex flex-col items-center text-center max-w-[250px] mx-auto w-full">
           <div className="mb-4">
-            <Image src="/clientes.png" alt="Clientes" width={80} height={80} className="w-auto h-20" />
+            <Image src="/clientes.png" alt="Clientes" width={80} height={80} className="w-auto h-20" style={{ height: "auto" }} />
           </div>
           <div className="text-2xl font-bold mb-1">+ de 2000</div>
           <div className="text-sm">clientes</div>
@@ -51,7 +51,7 @@ export default function QuemSomos() {
         {/* Card 2 - Projetos */}
         <div className="bg-[#1E1E1E] text-white rounded-xl p-5 flex flex-col items-center text-center max-w-[250px] mx-auto w-full">
           <div className="mb-4">
-            <Image src="/projetos.png" alt="Projetos" width={80} height={80} className="w-auto h-20" />
+            <Image src="/projetos.png" alt="Projetos" width={80} height={80} className="w-auto h-20" style={{ height: "auto" }} />
           </div>
           <div className="text-2xl font-bold text-white mb-1">Projetos em</div>
           <div className="text-2xl font-bold text-white mb-1">2 estados</div>
@@ -61,7 +61,7 @@ export default function QuemSomos() {
         {/* Card 3 - Equipe */}
         <div className="bg-[#1E1E1E] text-white rounded-xl p-5 flex flex-col items-center text-center max-w-[250px] mx-auto w-full">
           <div className="mb-4">
-            <Image src="/equipe.png" alt="Equipe" width={80} height={80} className="w-auto h-20" />
+            <Image src="/equipe.png" alt="Equipe" width={80} height={80} className="w-auto h-20" style={{ height: "auto" }} />
           </div>
           <div className="text-2xl font-bold text-white mb-1">Equipe de</div>
           <div className="text-2xl font-bold text-white mb-1">engenharia</div>
@@ -71,7 +71,7 @@ export default function QuemSomos() {
         {/* Card 4 - Potência */}
         <div className="bg-[#1E1E1E] text-white rounded-xl p-5 flex flex-col items-center text-center max-w-[250px] mx-auto w-full">
           <div className="mb-4">
-            <Image src="/operacao.png" alt="Potência em operação" width={80} height={80} className="w-auto h-20" />
+            <Image src="/operacao.png" alt="Potência em operação" width={80} height={80} className="w-auto h-20" style={{ height: "auto" }} />
           </div>
           <div className="text-2xl font-bold mb-1">+ de 10 MWp</div>
           <div className="text-sm">em operação</div>
