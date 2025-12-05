@@ -1,4 +1,4 @@
-import HeroSection from "@/components/HeroSection";
+import HeroSectionChristmas from "@/components/HeroSectionChristmas";
 import QuemSomos from "@/components/QuemSomos";
 import CasesSucesso from "@/components/CasesSucesso";
 import Garantias from "@/components/Garantias";
@@ -21,7 +21,7 @@ export default function Home() {
       
       {/* Conteúdo */}
       <div className="relative z-10">
-        <HeroSection />
+        <HeroSectionChristmas />
         <QuemSomos />
         <CasesSucesso />
         <Garantias />

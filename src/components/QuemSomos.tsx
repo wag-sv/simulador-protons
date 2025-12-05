@@ -4,7 +4,7 @@ import { BiLike } from "react-icons/bi";
 
 export default function QuemSomos() {
   return (
-    <section className="relative overflow-hidden w-full py-12 lg:-mt-16">
+    <section className="relative z-30 overflow-hidden w-full py-12 lg:-mt-16">
       {/* Grid principal */}
       <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-between px-6 lg:gap-12">
         {/* Coluna Esquerda: Texto */}
